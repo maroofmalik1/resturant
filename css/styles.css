@@ -1,0 +1,79 @@
+/* Contact Section */
+/* Navbar Styling */
+.navbar .menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar .menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px; /* Space between navbar items */
+}
+
+.navbar .menu ul li {
+  display: inline-block;
+}
+
+.navbar .menu ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ff6b81; /* Adjust according to the main theme */
+  padding: 8px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .menu ul li a:hover {
+  background-color: #ff6b81;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #ff6b81;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e35b70; /* Slightly darker shade on hover */
+}
+
+.contact {
+  padding: 60px 0;
+  background-color: #f2f2f2; /* Light background for contact section */
+}
+
+.contact h2 {
+  font-size: 2.5em;
+  color: #333; /* Adjust according to your main theme color */
+  margin-bottom: 20px;
+}
+
+.contact-description {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.contact-info p {
+  font-size: 1.1em;
+  color: #333;
+  line-height: 1.6em;
+  margin: 8px 0;
+}
+
+.contact-info strong {
+  color: #333;
+}
